@@ -5,6 +5,9 @@ using namespace std;
 vector<string> split_string(string);
 
 // Complete the arrayManipulation function below.
+// ref1:https://www.youtube.com/watch?v=JtJKn_c9lB4 
+// ref2: discussion panel
+//this includes a special algorithm
 long arrayManipulation(int n, vector<vector<int>> queries) {
     long *arr=new long[n+1];
     long sum=0;
