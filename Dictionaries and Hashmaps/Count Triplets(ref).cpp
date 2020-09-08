@@ -7,6 +7,7 @@ string rtrim(const string &);
 vector<string> split(const string &);
 
 // Complete the countTriplets function below.
+//ref:https://www.youtube.com/watch?v=7YKr0ELmam4&t=1075s
 long countTriplets(vector<long> arr, long r) {
 unordered_map<long,long>leftmap;
 unordered_map<long,long>rightmap;
