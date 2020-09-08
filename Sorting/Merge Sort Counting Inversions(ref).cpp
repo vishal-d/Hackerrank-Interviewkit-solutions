@@ -5,6 +5,8 @@ using namespace std;
 vector<string> split_string(string);
 
 // Complete the countInversions function below.
+//ref 1: counting inversion youtube videos.
+//ref 2: discussion panel.
 long merge(vector<int>& arr, int l, int m, int r) 
 {
     int i, j, k; 
