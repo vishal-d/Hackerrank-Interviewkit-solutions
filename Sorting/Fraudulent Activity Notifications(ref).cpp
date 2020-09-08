@@ -5,6 +5,7 @@ using namespace std;
 vector<string> split_string(string);
 
 // Complete the activityNotifications function below.
+//ref: discussion panel.
 int get_twice_median(vector<int> &A, vector<int> &count, int d){
         vector<int> countf(count);
         for(int i=1; i<countf.size(); i++){
